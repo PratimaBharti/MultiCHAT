@@ -41,7 +41,6 @@ Run "make all"
 
     
 ## Demo
-
-Insert gif or link to demo
+Following video is demo:
 
 https://drive.google.com/file/d/1pxuV9d2zJeQCVoSY-JR9kOQCYDB-5k3W/view?usp=sharing
