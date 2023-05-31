@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <bits/stdc++.h>
+#include <sys/ioctl.h>
+#include <net/if.h>
+#include <unistd.h>
+#include <bits/stdc++.h>
+#include <errno.h> 
+#include<thread>
+
+
+
+#define serverPort 8001
+
+
+#define BUF_SIZE 1024
+#define payload 1024
+
+
+using namespace std;
+
+struct message
+{
+	int msg_type;
+    char msglength[payload];
+};
+
+
+struct entry
+{
+   char ID[20];
+	 char IP[20];
+	int port;
+};
+
